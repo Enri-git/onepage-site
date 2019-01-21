@@ -2,6 +2,7 @@ body{
     font-family: Roboto;
     margin: 0;
     font-size: 22px;
+    position: relative;
 }
 
 header{
@@ -9,6 +10,7 @@ header{
     height: 100px;
     background-color: rgba(196, 196, 196, 0.7);
     width: 100vw;
+    overflow: hidden;
 }
 .float-left{
     float: left;
@@ -59,7 +61,7 @@ section{
     height:100vh;
     margin-top: -20px;
 }
-figure{
+#home figure img{
     margin: 0;
     width: 40vw;
 }
@@ -74,7 +76,8 @@ aside h2{
     font-weight: 600;
 }
 aside p{
-    margin: 25px 60px 0 60px;
+    margin: 25px 25px 0 60px;
+    padding-right: 8%;
 }
 
 h2{
@@ -83,42 +86,36 @@ h2{
     font-weight: 600;
     
 }
-article{
+figure{
     display: inline-block;
+    margin: 0;
 }
-article img:first-of-type{
+figure img:first-of-type{
     margin-left: 0;
 }
-article img:last-of-type{
+figure img:last-of-type{
     margin-right: 0;
 }
-article img{
+figure img{
     width: 27.5vw;
     height: 56vh;
-    display: block;
     object-fit: cover;
+    float:left;
 }
 
-article h3{
+figcaption{
     text-align: center;
-    text-decoration: overline;
-    margin: 0;
-    padding: 30px;
+    padding: 37px 0 15px 0;
     color: #fff;
     background-color: rgb(24, 23, 23);
+    width: 27.5vw; 
 }
-/* section#blog{
-    margin-right: 10%;
-    margin-left: 10%;
-} */
-#blog figure{
-    float: left;
-    display: contents;
-    margin-left: 50px;
-    margin-right: 50px;
-}
+
 #blog figure img{ 
-    padding: 30px 40px 0 40px;
+    height: auto;
+} 
+section#blog{
+    margin-top: -120px;
 }
 
 address{
@@ -142,10 +139,9 @@ button{
     height: 5vh;
     width: 6vw;
     background-color: #9999;
-    position: fixed;
-    right: 1%;
-    bottom: 150px;
-    overflow: overlay;
+    position: sticky;
+    left: 93%;
+    top: 90%;
 }
 footer{
     background-color: #333;
@@ -156,8 +152,10 @@ footer .logo h1{
     color: #fff;
 }
 footer p{
-    height:inherit;
+    margin-top: 2%;
+    
 }
 .copy{
-    margin-right: 8%;
+    margin-right: 23%;
+    height:inherit;
 }
