@@ -1,0 +1,163 @@
+body{
+    font-family: Roboto;
+    margin: 0;
+    font-size: 22px;
+}
+
+header{
+    position: fixed;
+    height: 100px;
+    background-color: rgba(196, 196, 196, 0.7);
+    width: 100vw;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+nav{
+    height: inherit;
+    margin-right: 8%;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    padding: 15px;
+    font-size: 30px;
+}
+.logo{
+    margin-left: 8%;
+}
+section#home{
+    padding:0;
+}
+section{
+    clear: both;
+    height: 100vh;
+    padding-top: 100px;
+    padding-left: 8%;
+    padding-right: 8%;
+    overflow: hidden;
+}
+
+.home-img{
+    height:100vh;
+    margin-top: -20px;
+}
+figure{
+    margin: 0;
+    width: 40vw;
+}
+aside{
+    width: 57vw;
+    height:100vh;
+}
+aside h2{
+    margin-top: 25%;
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+aside p{
+    margin: 25px 60px 0 60px;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+article{
+    display: inline-block;
+}
+article img:first-of-type{
+    margin-left: 0;
+}
+article img:last-of-type{
+    margin-right: 0;
+}
+article img{
+    width: 27.5vw;
+    height: 56vh;
+    display: block;
+    object-fit: cover;
+}
+
+article h3{
+    text-align: center;
+    text-decoration: overline;
+    margin: 0;
+    padding: 30px;
+    color: #fff;
+    background-color: rgb(24, 23, 23);
+}
+/* section#blog{
+    margin-right: 10%;
+    margin-left: 10%;
+} */
+#blog figure{
+    float: left;
+    display: contents;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#blog figure img{ 
+    padding: 30px 40px 0 40px;
+}
+
+address{
+    font-size: 25px;
+    margin-top: 5%;
+}
+span i{
+    font-size: 2em;
+    padding: 6px;
+}
+.icon{
+    margin-top: 3%;
+    width: 8vw;
+}
+#contact{
+    margin-right: 20%;
+    margin-left: 20%;
+    height: 50vh;
+}
+button{
+    height: 5vh;
+    width: 6vw;
+    background-color: #9999;
+    position: fixed;
+    right: 1%;
+    bottom: 150px;
+    overflow: overlay;
+}
+footer{
+    background-color: #333;
+    height: 12vh;
+    color: #fff;
+}
+footer .logo h1{
+    color: #fff;
+}
+footer p{
+    height:inherit;
+}
+.copy{
+    margin-right: 8%;
+}
