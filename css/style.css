@@ -1,8 +1,7 @@
 body{
     font-family: Roboto;
     margin: 0;
-    font-size: 22px;
-    position: relative;
+    font-size: 18px;
 }
 
 header{
@@ -40,7 +39,7 @@ li{
 li a {
     display: inline-block;
     padding: 15px;
-    font-size: 30px;
+    font-size: 25px;
 }
 .logo{
     margin-left: 8%;
@@ -63,7 +62,7 @@ section{
 }
 #home figure img{
     margin: 0;
-    width: 40vw;
+    width: 42vw;
 }
 aside{
     width: 57vw;
